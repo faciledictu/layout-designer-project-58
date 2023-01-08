@@ -1,10 +1,10 @@
 :root {
   --white: #fff;
   --light: #f5f4f0;
-  --transparent-light: #d7ccc0;
-  --primary-light: #fe8a02;
+  --light-transparent: #d7ccc0;
   --dark: #2a2626;
-  --transparent-dark: #908d8b;
+  --dark-transparent: #908d8b;
+  --primary: #fe8a02;
   --primary-dark: #42413c;
   --secondary: #b09a81;
   --tertiary: #1085c5;
@@ -22,6 +22,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
+  margin-bottom: 0.5em;
 
   font-weight: 400;
   font-family: Neucha, serif;
@@ -57,13 +58,21 @@ main {
   position: relative;
 
   max-width: 1110px;
-  margin: auto;
+  margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
+.bg-white {
+  background: var(--white);
+}
+
 .bg-light {
   background: var(--light);
+}
+
+.bg-primary-dark {
+  background: var(--primary-dark);
 }
 
 .bg-image::before {    
@@ -127,15 +136,36 @@ main {
   text-transform: uppercase;
   text-decoration: none;
 
-  background: var(--primary-light);
+  background: var(--primary);
 }
 
-.color-primary-light {
-  color: var(--primary-light);
+.color-primary {
+  color: var(--primary);
 }
 
 .header {
   position: relative;
 
   margin-bottom: 180px;
+}
+
+.video {
+  position: relative;
+  z-index: 1;
+
+  margin-bottom: -200px;
+
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.centered {
+  text-align: center;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.pt-200 {
+  padding-top: 200px;
 }
