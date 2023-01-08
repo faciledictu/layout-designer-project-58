@@ -18,6 +18,7 @@
     "stylelint": "^14.16.1",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^29.0.0",
-    "stylelint-order": "^6.0.1"
+    "stylelint-order": "^6.0.1",
+    "surge": "^0.23.1"
   }
 }

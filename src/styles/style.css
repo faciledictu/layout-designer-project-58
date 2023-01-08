@@ -1,0 +1,59 @@
+:root {
+  --white: #fff;
+  --light: #f5f4f0;
+  --transparent-light: #d7ccc0;
+  --primary-light: #fe8a02;
+  --dark: #2a2626;
+  --transparent-dark: #908d8b;
+  --primary-dark: #42413c;
+  --secondary: #b09a81;
+  --tertiary: #1085c5;
+}
+
+body {
+  display: flex;
+  flex-flow: nowrap column;
+  align-items: center;
+  margin: 0;
+
+  color: var(--dark);
+  font: 16px/1.6em "Open Sans", sans-serif;
+
+  background: var(--primary-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  font-family: Neucha, serif;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+.container {
+  width: 1110px;
+}
+
+main {
+  display: flex;
+  flex-flow: nowrap column;
+  align-items: center;
+}
+
+header, article, section, footer {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  background: var(--white);
+}
