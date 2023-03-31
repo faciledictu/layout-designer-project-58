@@ -5,7 +5,7 @@
   --dark: #2a2626;
   --dark-transparent: #908d8b;
   --primary: #fe8a02;
-  --primary-hover: #EA7600;
+  --primary-hover: #ea7600;
   --primary-dark: #42413c;
   --secondary: #b09a81;
   --tertiary: #1085c5;
@@ -18,7 +18,12 @@ body {
   font: 16px/1.6 "Open Sans", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 0.5em;
 
@@ -92,7 +97,7 @@ a {
   background: var(--secondary);
 }
 
-.bg-pattern::before {    
+.bg-pattern::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -278,7 +283,7 @@ a {
 .card-number {
   margin: 0 0 40px;
 
-  font: 64px/1 Neucha, serif
+  font: 64px/1 Neucha, serif;
 }
 
 .card-link {
@@ -322,7 +327,7 @@ a {
   padding: 40px 55px;
 }
 
-.form-group>label {
+.form-group > label {
   display: block;
   margin-bottom: 9px;
 
@@ -334,7 +339,7 @@ a {
   height: 50px;
 }
 
-.input-group>input {
+.input-group > input {
   flex: 1;
 }
 
